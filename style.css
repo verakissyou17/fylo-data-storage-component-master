@@ -166,7 +166,7 @@ img {
     background: url("./images/bg-desktop.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom -10rem center;
+    background-position: bottom center;
     background-color: var(--blue-950);
   }
 
