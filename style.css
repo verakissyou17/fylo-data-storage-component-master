@@ -20,7 +20,7 @@ body {
   background: url("./images/bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: bottom center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,19 +49,18 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  margin-top: 8rem;
   width: 100%;
   max-width: 23em;
 }
 
 .header {
   background-color: var(--blue-850);
-  border-radius: 0.75rem 6rem 0.75rem 0.75rem;
+  border-radius: 0.5rem 6rem 0.5rem 0.5rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 3em;
+  padding: 2em;
 }
 
 .img-container {
@@ -79,7 +78,7 @@ img {
   display: grid;
   place-content: center;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .box img {
@@ -90,7 +89,7 @@ img {
 .main {
   width: 100%;
   background-color: var(--blue-850);
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   position: relative;
   padding: 2em;
 }
@@ -167,8 +166,7 @@ img {
     background: url("./images/bg-desktop.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-attachment: fixed;
-    background-position: bottom -20vh center;
+    background-position: bottom -18vh center;
     background-color: var(--blue-950);
   }
 
